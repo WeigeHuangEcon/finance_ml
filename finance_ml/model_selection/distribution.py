@@ -1,5 +1,5 @@
 from scipy.stats import rv_continuous
-
+import numpy as np
 
 class LogUniformGen(rv_continuous):
     def _cdf(self, x):
